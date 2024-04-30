@@ -44,7 +44,7 @@ formatter.match({
   "location": "StepDefinition.user_Launch_the_Adactin_in_Application()"
 });
 formatter.result({
-  "duration": 4610064700,
+  "duration": 3016652599,
   "status": "passed"
 });
 formatter.match({
@@ -57,7 +57,7 @@ formatter.match({
   "location": "StepDefinition.user_Enter_the_in_Username_Field(String)"
 });
 formatter.result({
-  "duration": 283227301,
+  "duration": 246420001,
   "status": "passed"
 });
 formatter.match({
@@ -70,14 +70,14 @@ formatter.match({
   "location": "StepDefinition.user_Enter_the_in_password_field(String)"
 });
 formatter.result({
-  "duration": 112224001,
+  "duration": 136541700,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_click_the_Login_Button_And_it_Navigates_to_search_Hotel_page()"
 });
 formatter.result({
-  "duration": 355430200,
+  "duration": 428760000,
   "status": "passed"
 });
 });
