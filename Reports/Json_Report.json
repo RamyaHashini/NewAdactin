@@ -1,0 +1,88 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User Login in the Web Application",
+        "description": "",
+        "id": "hotel-booking-in-adactin-application;user-login-in-the-web-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4610064700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user Launch the Adactin in Application",
+            "match": {
+              "location": "StepDefinition.user_Launch_the_Adactin_in_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 283227301,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user Enter the \"\u003cUsername\u003e\" in Username Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cUsername\u003e",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinition.user_Enter_the_in_Username_Field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 112224001,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user Enter the \"\u003cpassword\u003e\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cpassword\u003e",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinition.user_Enter_the_in_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 355430200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click the Login Button And it Navigates to search Hotel page",
+            "match": {
+              "location": "StepDefinition.user_click_the_Login_Button_And_it_Navigates_to_search_Hotel_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@smokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Hotel Booking in Adactin Application",
+    "description": "",
+    "id": "hotel-booking-in-adactin-application",
+    "keyword": "Feature",
+    "uri": "Adactin.feature"
+  }
+]
